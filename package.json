@@ -4,7 +4,8 @@
   "description": "A lightweight utility to manage and enhance keyboard navigation for front-end applications. Focus Navigator simplifies accessibility by allowing developers to trap focus within a container, cycle through focusable elements, and improve keyboard navigation support effortlessly.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
